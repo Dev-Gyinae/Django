@@ -1,8 +1,138 @@
 {% extends 'core/base.html' %}
 
-{% block title %}Home{% endblock title %}
+{% block title %}Our Services{% endblock title %}
 
 {% block content %}
-    <h1> The Services page</h1>
-    <p> This is the services page of the marketplace application. </p>
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <!-- Header Section -->
+    <div class="text-center mb-12">
+        <h1 class="text-5xl font-bold text-gray-900 mb-4">Our Services</h1>
+        <p class="text-xl text-gray-600 max-w-2xl mx-auto">
+            Discover how our marketplace platform helps you buy and sell with confidence
+        </p>
+    </div>
+
+    <!-- Main Content -->
+    <div class="bg-white rounded-2xl shadow-lg overflow-hidden mb-12">
+        <div class="p-8 md:p-12">
+            <p class="text-lg text-gray-700 leading-relaxed">
+                Welcome to the services page of our marketplace application. 
+                We provide a seamless platform for buying and selling items with ease and security.
+            </p>
+        </div>
+    </div>
+
+    <!-- Services Grid -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
+        <!-- Service 1 -->
+        <div class="bg-white rounded-xl shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden group">
+            <div class="bg-gradient-to-r from-teal-500 to-teal-600 p-6">
+                <div class="w-16 h-16 bg-white rounded-full flex items-center justify-center mx-auto">
+                    <svg class="w-8 h-8 text-teal-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"></path>
+                    </svg>
+                </div>
+            </div>
+            <div class="p-6 text-center">
+                <h3 class="text-xl font-bold text-gray-800 mb-3">Buy & Sell Items</h3>
+                <p class="text-gray-600">List your items for sale or find great deals from trusted sellers in your community.</p>
+            </div>
+        </div>
+
+        <!-- Service 2 -->
+        <div class="bg-white rounded-xl shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden group">
+            <div class="bg-gradient-to-r from-teal-500 to-teal-600 p-6">
+                <div class="w-16 h-16 bg-white rounded-full flex items-center justify-center mx-auto">
+                    <svg class="w-8 h-8 text-teal-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"></path>
+                    </svg>
+                </div>
+            </div>
+            <div class="p-6 text-center">
+                <h3 class="text-xl font-bold text-gray-800 mb-3">Secure Messaging</h3>
+                <p class="text-gray-600">Communicate safely with buyers and sellers through our built-in messaging system.</p>
+            </div>
+        </div>
+
+        <!-- Service 3 -->
+        <div class="bg-white rounded-xl shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden group">
+            <div class="bg-gradient-to-r from-teal-500 to-teal-600 p-6">
+                <div class="w-16 h-16 bg-white rounded-full flex items-center justify-center mx-auto">
+                    <svg class="w-8 h-8 text-teal-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                    </svg>
+                </div>
+            </div>
+            <div class="p-6 text-center">
+                <h3 class="text-xl font-bold text-gray-800 mb-3">Smart Search</h3>
+                <p class="text-gray-600">Find exactly what you're looking for with advanced search and category filtering.</p>
+            </div>
+        </div>
+
+        <!-- Service 4 -->
+        <div class="bg-white rounded-xl shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden group">
+            <div class="bg-gradient-to-r from-teal-500 to-teal-600 p-6">
+                <div class="w-16 h-16 bg-white rounded-full flex items-center justify-center mx-auto">
+                    <svg class="w-8 h-8 text-teal-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
+                    </svg>
+                </div>
+            </div>
+            <div class="p-6 text-center">
+                <h3 class="text-xl font-bold text-gray-800 mb-3">Safe Transactions</h3>
+                <p class="text-gray-600">Secure and verified transactions with our trusted platform.</p>
+            </div>
+        </div>
+
+        <!-- Service 5 -->
+        <div class="bg-white rounded-xl shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden group">
+            <div class="bg-gradient-to-r from-teal-500 to-teal-600 p-6">
+                <div class="w-16 h-16 bg-white rounded-full flex items-center justify-center mx-auto">
+                    <svg class="w-8 h-8 text-teal-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                    </svg>
+                </div>
+            </div>
+            <div class="p-6 text-center">
+                <h3 class="text-xl font-bold text-gray-800 mb-3">Fair Pricing</h3>
+                <p class="text-gray-600">Set your own prices and negotiate with potential buyers.</p>
+            </div>
+        </div>
+
+        <!-- Service 6 -->
+        <div class="bg-white rounded-xl shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden group">
+            <div class="bg-gradient-to-r from-teal-500 to-teal-600 p-6">
+                <div class="w-16 h-16 bg-white rounded-full flex items-center justify-center mx-auto">
+                    <svg class="w-8 h-8 text-teal-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path>
+                    </svg>
+                </div>
+            </div>
+            <div class="p-6 text-center">
+                <h3 class="text-xl font-bold text-gray-800 mb-3">Easy Management</h3>
+                <p class="text-gray-600">Manage your listings, track conversations, and update your profile easily.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Call to Action -->
+    <div class="bg-gradient-to-r from-teal-500 to-teal-600 rounded-2xl shadow-lg overflow-hidden">
+        <div class="px-8 py-12 text-center">
+            <h2 class="text-3xl font-bold text-white mb-4">Ready to get started?</h2>
+            <p class="text-teal-100 mb-8 max-w-2xl mx-auto">
+                Join our community today and start buying and selling with confidence!
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="{% url 'core:signup' %}" 
+                    class="px-8 py-3 bg-white text-teal-600 font-semibold rounded-lg hover:bg-gray-100 transition duration-200 transform hover:scale-105">
+                    Create Account
+                </a>
+                <a href="{% url 'item:items' %}" 
+                    class="px-8 py-3 bg-teal-700 text-white font-semibold rounded-lg hover:bg-teal-800 transition duration-200 transform hover:scale-105">
+                    Browse Items
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
 {% endblock content %}
